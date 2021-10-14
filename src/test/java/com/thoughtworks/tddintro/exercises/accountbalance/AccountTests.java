@@ -13,7 +13,7 @@ public class AccountTests {
         assertEquals(account.getBalance(), 40);
     }
 
-    @Test  // Remove each @Ignore and implement test
+    @Test
     public void shouldDecreaseMyBalanceWhenIWithdrawMoney(){
         Account account = new Account();
         account.withdraw(40);
