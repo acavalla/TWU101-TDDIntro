@@ -5,16 +5,6 @@ import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
-
-/*
-
-    * Change Factorial.compute() so that the first test passes and the remaining tests fail.
-    * Change Factorial.compute() so that the first two tests pass and the remaining tests fail.
-    ...
-    * Change Factorial.compute() so that all of the tests pass.
-
- */
-
 public class FactorialTests {
 
     private final Factorial factorial = new Factorial();
@@ -25,7 +15,6 @@ public class FactorialTests {
     }
 
     @Test
-    @Ignore // Remove each @Ignore to allow the test to run
     public void shouldReturnTwoWhenNumberIsTwo(){
         assertThat(factorial.compute(2), is(2));
     }
