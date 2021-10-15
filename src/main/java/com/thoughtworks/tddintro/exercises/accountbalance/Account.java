@@ -1,7 +1,7 @@
 package com.thoughtworks.tddintro.exercises.accountbalance;
 
 public class Account {
-    public int balance = 0;
+    public int balance;
 
     public void deposit(int x) { this.balance += x; }
 
